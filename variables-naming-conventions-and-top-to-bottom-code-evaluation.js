@@ -24,13 +24,13 @@ Things to reflect on:
   
 */
 
-
+let customerName = "Alice";
 let itemQuantity = 5;
 let itemPrice = 20;
 let item1 = "toothpaste";
 let item2 = "toothbrush";
 let totalItems = "Total Items bought: " + itemQuantity;
-let recipt = customer + " bought " + item1 + "and" + item2 + " for $" + itemPrice + ".";
+let recipt = customerName + " bought " + item1 + "and" + item2 + " for $" + itemPrice + ".";
 
 console.log(recipt, totalItems);
 
